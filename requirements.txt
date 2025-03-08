@@ -1,5 +1,4 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import streamlit as st
-import matplotlib.ticker as ticker
+pandas==2.2.2
+matplotlib==3.9.0
+seaborn==0.13.2
+streamlit==1.43.0
