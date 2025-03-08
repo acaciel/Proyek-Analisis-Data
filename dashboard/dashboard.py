@@ -48,7 +48,7 @@ min_date = day_df['date'].min()
 max_date = day_df['date'].max()
  
 with st.sidebar:
-    st.image(r"C:\Users\aniss\OneDrive\Dokumen\SMT.6\Proyek Analisis Data Bike Sharing\dashboard\logo bike rental.png")
+    st.image("dashboard/logo bike rental.png")
 
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
