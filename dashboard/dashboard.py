@@ -41,7 +41,7 @@ def create_holiday_rent_df(df):
     return holiday_rent_df
 
 # Load cleaned data
-day_df = pd.read_csv("dashboard\day_data.csv")
+day_df = pd.read_csv("dashboard/day_data.csv")
 
 # Membuat komponen filter
 min_date = day_df['date'].min()
